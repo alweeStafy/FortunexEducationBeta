@@ -521,6 +521,12 @@ mark {
     height: auto
 }
 
+.img-icon-1 {
+    max-width: 100%;
+    width: auto;
+    height: 120px;
+}
+
 .img-icon-2 {
     max-width: 100%;
     width: 65px;
