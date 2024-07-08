@@ -9172,6 +9172,7 @@ button.bg-dark:hover {
     text-align: center !important
 }
 
+
 @media (max-width:576px) {
     .text-sm-left {
         text-align: center !important
@@ -9180,6 +9181,18 @@ button.bg-dark:hover {
         text-align: right !important
     }
     .text-sm-center {
+        text-align: center !important
+    }
+}
+
+@media (max-width:576px) {
+    .text-sm-left-1 {
+        text-align: left !important
+    }
+    .text-sm-right-1 {
+        text-align: right !important
+    }
+    .text-sm-center-1 {
         text-align: center !important
     }
 }

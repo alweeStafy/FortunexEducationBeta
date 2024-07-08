@@ -415,13 +415,13 @@ button:focus {
   position: relative;
   background: url(../img/banner/banner.jpg) no-repeat center center;
   z-index: 1;
-  min-height: 392px;
+  min-height: 242px;
   padding-top: 0 !important; }
   .banner_area .banner_inner {
     position: relative;
     overflow: hidden;
     width: 100%;
-    min-height: 392px;
+    min-height: 242px;
     z-index: 1; }
     .banner_area .banner_inner .overlay {
       position: absolute;
@@ -916,10 +916,42 @@ button:focus {
       transition: all 0.3s ease 0s; }
       .single-trainer .meta-text a:hover {
         color: #fdc632; }
-  .single-trainer:hover .meta-text {
+.meta-text-1 {
     box-shadow: 0px 10px 30px rgba(0, 35, 71, 0.15); }
+     .meta-text-1 {
+      background: #f9f9ff;
+      padding: 20px 35px;
+      box-shadow: 0px 0px 30px rgba(153, 153, 153, 0.13);
+      -webkit-transition: all 0.3s ease 0s;
+      -moz-transition: all 0.3s ease 0s;
+      -o-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s;
+      background: #ffffff; }
+      @media (max-width: 991px) {
+      .meta-text-1 {
+          padding: 57px 20px; } }
+      .meta-text-1 h4 {
+        font-size: 20px;
+        margin-bottom: 0px; }
+      .meta-text-1 .designation {
+        font-size: 14px;
+        margin-bottom: 30px; }
+      .meta-text-1 a {
+        font-size: 14px;
+        margin: 0 10px;
+        color: #cccccc;
+        -webkit-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s; }
+      .meta-text-1 a:hover {
+          color: #fdc632; }
+      .meta-text-1 {
+      box-shadow: 0px 10px 30px rgba(0, 35, 71, 0.15); }
+  
 
 /* End Trainers Area css
+
 ============================================================================================ */
 /* Start Event Area css
 ============================================================================================ */
