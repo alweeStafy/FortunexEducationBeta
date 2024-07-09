@@ -531,7 +531,10 @@ mark {
     height: auto         }
     }  
       
-
+    .img-fluid-2 {
+        max-width: 90%;    
+        height: auto
+    }
 /* .img-profile {
     max-width: 10%;
     width: auto;
