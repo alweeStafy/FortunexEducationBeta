@@ -17,13 +17,15 @@
     <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css" />
     <!-- main css -->
     <link rel="stylesheet" href="css/style.css" />
+    <!-- Vendor -->
+    <link rel="stylesheet" href="vendors/aos/aos.css" />
   </head>
 
   <body>
     <!--================ Start Header Menu Area =================-->
     <header class="header_area">
       <div class="main_menu">
-        <div class="search_input" id="search_input_box">
+        <!-- <div class="search_input" id="search_input_box">
           <div class="container">
             <form class="d-flex justify-content-between" method="" action="">
               <input
@@ -40,7 +42,7 @@
               ></span>
             </form>
           </div>
-        </div>
+        </div> -->
 
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container">
@@ -61,7 +63,7 @@
               <span class="icon-bar"></span>
             </button>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div
+            <!-- <div
               class="collapse navbar-collapse offset"
               id="navbarSupportedContent"
             >
@@ -70,7 +72,7 @@
                   <a class="nav-link" href="index.html">Home</a>
                 </li>
               </ul>
-            </div>
+            </div> -->
           </div>
         </nav>
       </div>
@@ -78,7 +80,7 @@
     <!--================ End Header Menu Area =================-->
 
     <!--================Home Banner Area =================-->
-    <section class="banner_area">
+    <section class="banner_area" data-aos="fade-up">
       <div class="banner_inner d-flex align-items-center">
         <div class="overlay"></div>
         <div class="container">
@@ -88,7 +90,7 @@
                 <h2>Register</h2>
                 <div class="page_link">
                   <a href="index.html">Home</a>
-                  <a href="courses.html">Register</a>
+                  <a href="Register.html">Register</a>
                 </div>
               </div>
             </div>
@@ -106,7 +108,7 @@
             class="col-lg-7 col-md-5 col-sm-3 single-trainer"
             data-aos="fade-up"
           >
-            <div class="text-sm-left-1">
+            <div class="text-sm-left-1" data-aos="fade-right">
               <div class="col-lg-10 col-md-8 single-trainer">
                 <form action="https://api.web3forms.com/submit" method="POST">
                   <input
@@ -220,7 +222,7 @@
                 document.write(new Date().getFullYear());
               </script>
               All rights reserved | This website by
-              <a href="#" target="_blank">fortunexcapital</a>
+              <a href="index.html" target="_blank">FORTUNEX EDUCATION</a>
             </p>
           </div>
 
@@ -252,5 +254,8 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
     <script src="js/gmaps.min.js"></script>
     <script src="js/theme.js"></script>
+    <!-- Vendor -->
+    <script src="vendors/aos/aos.js"></script>
+    <script src="vendors/aos/aos-d.js"></script>
   </body>
 </html>
